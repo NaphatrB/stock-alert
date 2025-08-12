@@ -1,0 +1,22 @@
+{
+  "name": "stock-checker",
+  "version": "1.0.0",
+  "description": "Checks if item is in stock",
+  "main": "index.js",
+  "scripts": {
+    "check": "cypress run --headless --spec \"cypress/e2e/stock.cy.js\""
+  },
+  "keywords": [
+    "cypress",
+    "stock-checker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "qs": "^6.14.0"
+  }
+}
